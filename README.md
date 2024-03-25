@@ -99,9 +99,9 @@ The above then led to the following pages...<br><br>
 * PYTHON: Developing the Python grip! As a new developer, Python has been an exciting and fulfilling skill to add to my repertoire. Due to the nature of the site I wanted to create, I had extensive interaction with my models, views, and urls files. The site uses seven database tables (one for cities with professional teams, one for fans, and one for each of the four major sports.)
 * OPERATIONS: I took the following steps to automate the Admin Import table loads:
     * CREATED the tables' infrastructure in the class.py file.
-    * BUILT all of the CSV files for import. This was a major undertaking, given the breadth of the data sets being worked to the site - here is the ProCities table, for example:<br>
+    * BUILT all of the CSV files for import. This was a major undertaking, given the breadth of the data sets being worked to the site.
+    * LOADED the CSV files with all relevant data. The 'ProCities' table was the most extensive, with a row for every City/State/Country, as well as two columns for each major sport (to account for cities like New York, NY that have two teams in every major professional sport.) Here is the ProCities table, once loaded to the database:<br>
     ![Python Live Project: Cities display page.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/database-1-ProCities.jpg)<br>
-    * LOADED the CSV files with all relevant data. The 'ProCities' table was the most extensive, with a row for every City/State/Country, as well as two columns for each major sport (to account for cities like New York, NY that have two teams in every major professional sport.)
     * CREATED the import scripts in the views.py file.
     * CONSTRUCTED an Admin Import page with buttons hyperlinked to execute the import scripts.
     * RAN all of the import scripts, troubleshooting data corruption issues.
