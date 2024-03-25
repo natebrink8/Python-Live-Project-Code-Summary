@@ -29,21 +29,29 @@ The below views.py code was created for the Fans model, leveraging the FanForm f
 
 
 ### Display all database items
-The next step was to display all data being written to the database. The tallest task on this front was for all cities in Canada and the United States that have any of the four major professional sports teams. This maxes out with a city like New York, which has two teams in each of the four sports. The model for the ProCities table looked like this:<br><br>
-![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-models-cities.jpg)<br><br>
+The next step was to display all data being written to the database. The tallest task on this front was for all cities in Canada and the United States that have any of the four major professional sports teams. This maxes out with a city like New York, which has two teams in each of the four sports. The model for the ProCities table was built like this, in order to provide data points for all possible city needs:<br><br>
+![Python Live Project: Model for the ProCities table .](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-models-cities.jpg)<br><br>
 
-The views.py was built with four pieces (_each table required this same view file construct but this example is solely for the 'ProCities' table_) defining:
+The views.py was built with four pieces (_each table required this same four piece construct but this example is solely for the 'ProCities' table_) defining:
 1. the script for the import.
-2. the link needed for the admin import page (leveraging the utility built in #1.)
+2. the link needed for the admin import page (leveraging the script built in #1.)
 3. the display of the table's details.
 4. the Landing Page setup, to display the table's data.
 <br>
 
-![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_other-skills-6-cities-table-1.jpg)<br><br>
-![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_other-skills-6-cities-table-2.jpg)<br><br>
+![Python Live Project: views.py file for cities (1 of 2).](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_other-skills-6-cities-table-1.jpg)<br><br>
+![Python Live Project: views.py file for cities (2 of 2).](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_other-skills-6-cities-table-2.jpg)<br><br>
 
 
 ### Details page
+From the home page, a table's navbar item could be clicked to display its content:<br>
+![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-4-cities-display.jpg)<br><br>
+
+By clicking a city name then, the details page is provided:<br>
+![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-4-cities-details.jpg)<br><br>
+
+
+
 [ADD description and code snippet here]
 
 ### Edit and Delete
