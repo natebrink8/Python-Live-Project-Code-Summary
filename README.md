@@ -46,7 +46,7 @@ The views.py was built with four pieces defining:
 
 ### Details page
 From the home page, a table's navbar item was built to be clicked to display its content:<br>
-![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-4-cities-display.jpg)<br><br>
+![Python Live Project: ProCities table display.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-4-cities-display.jpg)<br><br>
 
 Clicking a city name then drills down to the details page:<br>
 ![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-4-cities-details.jpg)<br><br>
@@ -57,13 +57,13 @@ Clicking a city name then drills down to the details page:<br>
 The workflow for this is primarily for the Fans table, to be able to edit or delete a Fan record. Should the site progress for fans to interact and share reviews, etc, then login requirements would be added alongside the ability for a logged-in user to edit and delete their posts. For now, the site is built with edit and delete functionality for the Fans table:<br><br>
 :sparkle:**Display**<br>
 _Clicking a fan's name will display their record's details_.
-![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-display.jpg)<br><br>
+![Python Live Project: Fans table display.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-display.jpg)<br><br>
 **_View a fan record details_:**<br>
-![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-details.jpg)<br><br>
+![Python Live Project: Fans table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-details.jpg)<br><br>
 :sparkle:**Edit**<br>
-![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-update.jpg)<br><br>
+![Python Live Project: Fans table update.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-update.jpg)<br><br>
 :sparkle:**Delete**<br>
-![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-delete.jpg)<br><br>
+![Python Live Project: Fans table delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-delete.jpg)<br><br>
 
 
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
@@ -72,12 +72,21 @@ _Clicking a fan's name will display their record's details_.
 ## Front End Stories
 ### Page Format and Styling
 * [Page Format and Styling](#page-format-and-styling)
-The primary front end focuses were to frame out the necessary pages for the site I envisioned and then to pick the styling of my page and implement the HTML and CSS accordingly. Several templates were required to achieve the appropriate table interaction (see below.)<br>
-![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/templates-list.jpg)<br><br>
+The primary front end focuses were to frame out the necessary pages for the site I envisioned and then to pick the styling of my page and implement the HTML and CSS accordingly. Several templates were required to achieve the appropriate table interaction (see below.)<br><br>
+![Python Live Project: list of Templates.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/templates-list.jpg)<br><br>
 
+The code for the Admin Import page was built to leverage the scripts in the views.py file (detailed in step 2 of the [Display all database items](#display-all-database-items) above):<br><br>
+![Python Live Project: Admin Import page's code.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/templates_admin-import.jpg)<br><br>
 
-[DETAIL work done on formatting in CSS and screenshots]
+The code for the Cities display page was built with a "for each" loop to retrieve City and State names into the page:<br><br>
+![Python Live Project: City display page's code.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/templates_cities-display.jpg)<br><br>
 
+The above then led to the following pages...<br><br>
+1. the Admin Import page:<br><br>
+![Python Live Project: Admin Import page.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-12-admin-import.jpg)<br><br>
+
+2. the City display page:<br><br>
+![Python Live Project: Cities display page.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-4-cities-display.jpg)<br><br>
 
 
 
