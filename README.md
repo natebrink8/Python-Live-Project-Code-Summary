@@ -21,10 +21,10 @@ Home page (index):<br>
 
 
 ### Create my model
-The models.py file was built with multiple table constructs to be migrated in order to run the server and make my site active:<br>
+The models.py file was initially built with a 'Fans' table to stand up the first instance of the site:<br>
 ![Python Live Project: Fans table class.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-models-fans.jpg)<br>
 
-The below views.py code was created for the Fans model, leveraging the FanForm from the forms.py and setting up for the "Edit and Delete" functionality detailed below.<br>
+The below views.py code was created for the Fans model, leveraging the FanForm from the forms.py and setting up for the "[Edit and Delete](#edit-and-delete)" functionality detailed below.<br><br>
 ![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_backend-2-and-5-create-update-delete.jpg)<br>
 
 
