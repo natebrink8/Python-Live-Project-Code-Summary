@@ -15,8 +15,10 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 * [Edit and Delete](#edit-and-delete)
 
 ### Build the basic App
-The basic app creation contained HTML files for the base and index pages and the forms to use in the website:
-    screenshot 1
+The basic app creation contained HTML files for the base and index pages and the forms to use in the website.
+Home page (index):<br>
+![Python Live Project: index screenshot.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-1.jpg)
+
 
 ### Create my model
 [ADD description and code snippet here]
