@@ -67,14 +67,18 @@ _Clicking a fan's name will display their record's details_.
 
 
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
-## Front End Stories
-* [Front End Improvements](#front-end-improvements)
-* [Page Format and Styling](#page-format-and-styling)
+<br><br>
 
-### Front End Improvements
-[ADD description and code snippet here]
+## Front End Stories
 ### Page Format and Styling
+* [Page Format and Styling](#page-format-and-styling)
+The primary front end focuses were to frame out the necessary pages for the site I envisioned and then to pick the styling of my page and implement the HTML and CSS accordingly. Several templates were required to achieve the appropriate table interaction (see below.)<br>
+![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/templates-list.jpg)<br><br>
+
+
 [DETAIL work done on formatting in CSS and screenshots]
+
+
 
 
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
