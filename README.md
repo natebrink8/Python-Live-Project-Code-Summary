@@ -108,6 +108,6 @@ The above then led to the following pages...<br><br>
     * RENAMED the CSV import files, adding "-loaded" to the new file names.
     * MOVED the "-loaded" CSV files to an Archive subfolder.
     * CLEARED the data from the root directory CSV files, leaving just the column headers (preventing potential accidental import / overwrite of the database.)
-* OTHER SKILL 3.
+<br><br>
   
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
