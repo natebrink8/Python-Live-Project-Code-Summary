@@ -18,32 +18,30 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 The basic app creation contained HTML files for the base and index pages and the forms to use in the website.<br>
 Home page (index):<br>
 ![Python Live Project: index page.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-1.jpg)
-
+<br>
 
 ### Create my model
-The models.py file was initially built with a 'Fans' table to stand up the first instance of the site:<br>
+The models.py file was initially built with a 'Fans' table to stand up the first instance of the site:<br><br>
 ![Python Live Project: Fans table class.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-models-fans.jpg)<br>
 
 The below views.py code was created for the Fans model, leveraging the FanForm from the forms.py and setting up for the "[Edit and Delete](#edit-and-delete)" functionality detailed below.<br><br>
-![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_backend-2-and-5-create-update-delete.jpg)<br>
+![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_backend-2-and-5-create-update-delete.jpg)<br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-[ADD description and code snippet here]
 
 ### Display all database items
-[ADD description and code snippet here]
+The next step was to display all data being written to the database. The tallest task on this front was for all cities in Canada and the United States that have any of the four major professional sports teams. This maxes out with a city like New York, which has two teams in each of the four sports. The model for the ProCities table looked like this:<br><br>
+![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-models-cities.jpg)<br><br>
+
+The views.py was built with four pieces (_each table required this same view file construct but this example is solely for the 'ProCities' table_) defining:
+1. the script for the import.
+2. the link needed for the admin import page (leveraging the utility built in #1.)
+3. the display of the table's details.
+4. the Landing Page setup, to display the table's data.
+<br>
+
+![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_other-skills-6-cities-table-1.jpg)<br><br>
+![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_other-skills-6-cities-table-2.jpg)<br><br>
+
 
 ### Details page
 [ADD description and code snippet here]
