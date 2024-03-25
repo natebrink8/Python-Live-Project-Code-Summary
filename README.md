@@ -15,14 +15,32 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 * [Edit and Delete](#edit-and-delete)
 
 ### Build the basic App
-The basic app creation contained HTML files for the base and index pages and the forms to use in the website.
+The basic app creation contained HTML files for the base and index pages and the forms to use in the website.<br>
 Home page (index):<br>
-![Python Live Project: index screenshot.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-1.jpg)
+![Python Live Project: index page.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-1.jpg)
 
 
 ### Create my model
+The models.py file was built with multiple table constructs to be migrated in order to run the server and make my site active:<br>
+![Python Live Project: Fans table class.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-models-fans.jpg)<br>
+
+The below views.py code was created for the Fans model, leveraging the FanForm from the forms.py and setting up for the "Edit and Delete" functionality detailed below.<br>
+![Python Live Project: Fans table view for create, update, and delete.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/py-views_backend-2-and-5-create-update-delete.jpg)<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [ADD description and code snippet here]
-    screenshot 2-and-5
 
 ### Display all database items
 [ADD description and code snippet here]
@@ -32,7 +50,9 @@ Home page (index):<br>
 
 ### Edit and Delete
 [ADD description and code snippet here]
-    screenshot 2-and-5
+(*See the screenshot above, under "Create my model"*.)<br>
+
+
 
 
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
