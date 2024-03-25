@@ -15,10 +15,12 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 * [Edit and Delete](#edit-and-delete)
 
 ### Build the basic App
-[ADD description and code snippet here]
+The basic app creation contained HTML files for the base and index pages and the forms to use in the website:
+    screenshot 1
 
 ### Create my model
 [ADD description and code snippet here]
+    screenshot 2-and-5
 
 ### Display all database items
 [ADD description and code snippet here]
@@ -28,6 +30,7 @@ Below are descriptions of the stories I worked on, along with code snippets and 
 
 ### Edit and Delete
 [ADD description and code snippet here]
+    screenshot 2-and-5
 
 
 *Jump to: [Front End Stories](#front-end-stories), [Back End Stories](#back-end-stories), [Other Skills](#other-skills-learned), [Page Top](#live-project)*
