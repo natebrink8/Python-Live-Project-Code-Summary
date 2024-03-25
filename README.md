@@ -96,7 +96,8 @@ The above then led to the following pages...<br><br>
 * COMMUNICATION: Improving project flow by communicating about who needs to check out which files for their current story.
 * COLLABORATION: Practicing team programming when a bug is encountered but not solved (not spiraling).
 * DISCOMFORT: Getting out of my comfort zone, taking responsibility for features out of the initial project scope, ensuring the structure of my site as well as the proper functionality, and loading symphonic data.
-* PYTHON: Developing the Python grip! As a new developer, Python has been an exciting and fulfilling skill to add to my repertoire. Due to the nature of the site I wanted to create, I had extensive interaction with my models, views, and urls files. The site uses seven database tables (one for cities with professional teams, one for fans, and one for each of the four major sports.) I took the following steps to automate the table loads:
+* PYTHON: Developing the Python grip! As a new developer, Python has been an exciting and fulfilling skill to add to my repertoire. Due to the nature of the site I wanted to create, I had extensive interaction with my models, views, and urls files. The site uses seven database tables (one for cities with professional teams, one for fans, and one for each of the four major sports.)
+* OPERATIONS: I took the following steps to automate the Admin Import table loads:
     * CREATED the tables' infrastructure in the class.py file.
     * BUILT all of the CSV files for import.
     * LOADED the CSV files with all relevant data. The 'ProCities' table was the most extensive, with a row for every City/State/Country, as well as two columns for each major sport (to account for cities like New York, NY that have two teams in every major professional sport.)
