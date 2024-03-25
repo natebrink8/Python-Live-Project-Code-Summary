@@ -53,16 +53,16 @@ Clicking a city name then drills down to the details page:<br>
 
 
 ### Edit and Delete
-(*Screenshot above under "Create my model" details the code*.)<br>
-The workflow for this is primarily for the Fans table, to be able to edit or delete a Fan record. Should the site progress for fans to interact and share reviews, etc, then login requirements would be added alongside the ability for a logged-in user to edit and delete their posts. For now, the site is built with edit and delete functionality for the Fans table:<br>
-**Display**
+(*Screenshot above details the code*: [Create my model](#create-my-model))<br>
+The workflow for this is primarily for the Fans table, to be able to edit or delete a Fan record. Should the site progress for fans to interact and share reviews, etc, then login requirements would be added alongside the ability for a logged-in user to edit and delete their posts. For now, the site is built with edit and delete functionality for the Fans table:<br><br>
+**Display**<br>
 _Clicking a fan's name will display their record's details_.
 ![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-display.jpg)<br><br>
 **_View a fan record details_:**<br>
 ![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-details.jpg)<br><br>
-**Edit**
+**Edit**<br>
 ![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-update.jpg)<br><br>
-**Delete**
+**Delete**<br>
 ![Python Live Project: ProCities table details.](https://github.com/natebrink8/Code-Summary/blob/main/README-screenshots/index-9-fans-delete.jpg)<br><br>
 
 
