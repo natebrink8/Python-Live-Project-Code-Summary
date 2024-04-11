@@ -1,4 +1,4 @@
-# Live Project
+# Python Live Project Code Summary
 ## Introduction
 Two weeks of my Software Developer bootcamp at The Tech Academy were invested in developing a full-scale web site in Python, HTML, and CSS. The primary objective of my assigned stories of the project were to build CRUD functionality. 
 The Python muscle I've been developing in the bootcamp was put to the test in the project's [back end stories](#back-end-stories) and I am proud to have completed these in short order. In addition, given much of the site framework had already been built, I made a significant HTML & CSS overhaul to the site's content in my [front end stories](#front-end-stories). Because I achieved the sprint's core assignments in 40% of the alloted time, I met with my Project Manager to discuss adding scope- namely expanding the database engagement and adding the functionality for the site to become a portal for fans of the four major sports in North America to interact.
